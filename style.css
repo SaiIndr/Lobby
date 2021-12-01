@@ -220,6 +220,10 @@ img.avatar.selected {
   margin-left: 80px;
 }
 
+.loadLast{
+  margin-left: 30%;
+}
+
 #description {
 	width: 500px !important;
 	height: 100px !important;

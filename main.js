@@ -318,8 +318,12 @@ $(function() {
     
     $('#final-continue').on('click', function() {
 
+		$('#task').hide();
+		$('#end_screen').show();
       // Redirect link
-      location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+  	setTimeout(function() {
+		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+  	}, 8000);
 
     });
     
