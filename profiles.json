@@ -58,7 +58,7 @@ window.others = {
         "likes": [12000, 40000, 120000] //3
       },
       {
-        "avatar": "avatars/others/heather.png",
+        "avatar": "avatars/others/hanna.png",
         "username": "Hanna",
         "text": "Ich werde gerade mit dem ersten Jahr an der Uni fertig. Nebenbei arbeite ich an einer Kosmetiktheke in Teilzeit und verdiene ein bisschen Geld online. Ich habe vieles geplant für meine Zukunft, und das ist so aufregend für mich. Ich möchte Ärztin werden mit einer Familie bestehend aus vielen kleinen Hunden. Das wird fantastisch.",
         "likes": [13000, 50000, 80000, 88000, 120000] //5
