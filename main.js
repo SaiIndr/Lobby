@@ -28,7 +28,7 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 180000; 
+    settings.tasklength = 180; 
 
 	
 	// **Number** **of** **"likes"**    
@@ -322,7 +322,7 @@ $(function() {
 		$('#end_screen').show();
       // Redirect link
   	setTimeout(function() {
-		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+		location.href = window.redirect+"=" + window.vpcode +'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
   	}, 8000);
 
     });
@@ -354,11 +354,17 @@ $(function() {
 	  window.redirect = window.settings.defaultredirect;
 	}
 	
+    if(window.QueryString.vpcode !== undefined) {
+      window.vpcode = window.QueryString.vpcode;
+    } else {
+	  window.vpcode = "";
+	}
+	
 	var urlHasQuestionMark = (window.redirect.indexOf("?") > -1);
 	if(!urlHasQuestionMark) {
 		window.redirect = window.redirect+"?redir=1";
 	}
-	//alert(window.redirect);
+	alert(window.QueryString.vpcode);
 
   }
   
