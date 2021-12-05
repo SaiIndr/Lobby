@@ -28,7 +28,7 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 180; 
+    settings.tasklength = 180000; 
 
 	
 	// **Number** **of** **"likes"**    
@@ -323,7 +323,7 @@ $(function() {
       // Redirect link
   	setTimeout(function() {
 		location.href = window.redirect+"=" + window.vpcode +'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
-  	}, 8000);
+  	}, 4000);
 
     });
     
@@ -364,7 +364,6 @@ $(function() {
 	if(!urlHasQuestionMark) {
 		window.redirect = window.redirect+"?redir=1";
 	}
-	alert(window.QueryString.vpcode);
 
   }
   
