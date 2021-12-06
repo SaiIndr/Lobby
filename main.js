@@ -86,12 +86,12 @@ $(function() {
 
   		if(uname == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Bitte geben Sie einen Text ein';
   			uname = "undefined";
   		}
   		if(not_alphanumeric(uname)) {
   			error = 1;
-  			errormsg = 'Please only letters (and no spaces)';
+  			errormsg = 'Bitte nur Buchstaben (und keine Leerzeichen)';
   		}  		
 
   		if(error == 0) {
@@ -99,7 +99,7 @@ $(function() {
 			window.username = $('#username').val();
   			init_avatar();  			
   		} else {
-  			alertify.log(errormsg,"error");
+  			alertify.log(errormsg,"Fehler");
   		}
 
 
@@ -130,7 +130,7 @@ $(function() {
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
-    			alertify.log("Please select an avatar","error");
+    			alertify.log("Bitte wählen Sie einen Avatar","Fehler");
     		}
     	});
 
@@ -150,24 +150,24 @@ $(function() {
   		var error = 0;
   		if($('#description').val() == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Bitte geben Sie einen Text ein';
   		}
   		if($('#description').val() !== "" && $('#description').val().length < 140) {
 		
   			error = 1;
-  			errormsg = 'Please write a bit more';
+  			errormsg = 'Bitte schreiben Sie ein wenig mehr';
 			}
   		if($('#description').val().length > 401) {
   		
   			error = 1;
-  			errormsg = 'Please enter less text';
+  			errormsg = 'Bitte schreiben Sie etwas weniger Text';
   		}  		
   		if(error == 0) {
   			$('#text').hide();
   			window.description = $('#description').val();
     			init_fb_intro();  			
     		} else {
-    			alertify.log(errormsg,"error");
+    			alertify.log(errormsg,"Fehler");
     		}
   	});  	
   }
@@ -265,7 +265,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernames[i] + " liked your post";
+  			themsg = usernames[i] + " gefällt dein Beitrag";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
@@ -478,7 +478,7 @@ $(function() {
   // Prevent that participants accidentally exit the experiment by disabling F5 and backspace keys
   shortcut.add("f5",function() {});  
   $(window).bind('beforeunload', function(){
-    return 'Are you sure you want to quit the experiment completely?';
+    return 'Sind Sie sicher, dass Sie die Umfrage komplett verlassen möchten?';
   });   
 
   // Set Settings, get Participant No. and Condition No.
