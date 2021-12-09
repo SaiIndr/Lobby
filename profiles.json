@@ -6,7 +6,7 @@ window.others = {
       {
         "avatar": "avatars/others/georg.png",
         "username": "Georg",
-        "text": "Ich bin Georg und komme aus Sachsen (ja, macht euch ruhig über den Dialekt lustig). Ich liebe Musik, zurzeit erwischt man mich nur dabei wie ich Joy Division, Echo & the bunnymen und the smiths höre. Abgesehen von Musik steh ich auf Sprachen lernen, Psychologie, Malen und Schreiben.",
+        "text": "Ich bin Georg und komme aus Leipzig (mittlerweile das neue Berlin). Ich liebe Musik, zurzeit höre ich viel Sachen wie ich Joy Division, Echo & the bunnymen und the smiths höre. Zum Tanzen höre ich auch gern Techno. Abgesehen von Musik steh ich auf Sprachen lernen, Psychologie, Malen und Schreiben.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
@@ -42,7 +42,7 @@ window.others = {
       {
         "avatar": "avatars/others/lauren.png",
         "username": "Laura",
-        "text": "Ich bin die Laura, liebe es mit Freunden abzuhängen und shoppen. Mache gerade ein paar online Studien mit!",
+        "text": "Ich bin die Laura, liebe es mit Freunden abzuhängen und shoppen zu gehen. Mache gerade ein paar online Studien mit!",
         "likes": [12000, 38000] //1
       },
           {
@@ -54,19 +54,19 @@ window.others = {
       {
         "avatar": "avatars/others/arjen.png",
         "username": "Arjen",
-        "text": "Mein Name ist Arjen, ich studiere im Bereich künstliche Intelligenz. Meine Freizeit verwende ich, um verschiedenste Ding herzustellen… bin sowas wie eine Nerd, schätze ich. ",
+        "text": "Mein Name ist Arjen, ich studiere im Bereich künstliche Intelligenz. Meine Freizeit verwende ich, um verschiedenste Ding herzustellen… man könnte mich als Nerd bezeichnen.",
         "likes": [12000, 40000, 120000] //3
       },
       {
         "avatar": "avatars/others/hanna.png",
         "username": "Hanna",
-        "text": "Ich werde gerade mit dem ersten Jahr an der Uni fertig. Nebenbei arbeite ich an einer Kosmetiktheke in Teilzeit und verdiene ein bisschen Geld online. Ich habe vieles geplant für meine Zukunft, und das ist so aufregend für mich. Ich möchte Ärztin werden mit einer Familie bestehend aus vielen kleinen Hunden. Das wird fantastisch.",
+        "text": "Ich werde gerade mit dem ersten Jahr an der Uni fertig. Nebenbei arbeite ich an einer Kosmetiktheke in Teilzeit und verdiene ein bisschen Geld online. Ich habe vieles geplant für meine Zukunft, das macht mir Spaß und ist aufregend. Ich möchte Ärztin werden und eine Familie bestehend aus vielen kleinen Hunden haben. Das wäre fantastisch.",
         "likes": [13000, 50000, 80000, 88000, 120000] //5
       },
       {
-        "avatar": "avatars/others/jane.png",
-        "username": "Jane",
-        "text": "Hallo zusammen, mein Name ist Jane und ich habe demnächst ein wichtiges Vorstellungsgespräch. Das ist alles woran ich die letzten Tage denken kann. Ich hoffe euch geht’s gut",
+        "avatar": "avatars/others/janne.png",
+        "username": "Janne",
+        "text": "Hallo zusammen, mein Name ist Janne und ich habe demnächst ein wichtiges Vorstellungsgespräch. Das ist alles woran ich die letzten Tage denken konnte. Ich hoffe euch geht’s gut",
         "likes": [10000, 50000] //6
       },
 
